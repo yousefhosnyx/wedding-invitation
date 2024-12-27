@@ -10,6 +10,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mainColor: "#10C48A",
+        shadeColor: "#1B6B51",
       },
       animation: {
         fadeIn: "fadeIn 0.5s ease-out", // Animation class for fade-in
