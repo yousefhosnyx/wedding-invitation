@@ -12,7 +12,7 @@ export default {
         foreground: "var(--foreground)",
       },
       animation: {
-        fadeIn: "fadeIn 2s ease-out",
+        fadeIn: "fadeIn 0.5s ease-out", // Animation class for fade-in
       },
       keyframes: {
         fadeIn: {
