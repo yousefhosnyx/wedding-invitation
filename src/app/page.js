@@ -42,8 +42,8 @@ export default function Home() {
     <div className="animate-fadeIn min-h-screen bg-background flex flex-col items-center justify-center text-center py-12 px-4">
       {/* Countdown Timer */}
       <div className="flex gap-[4px] md:gap-[5px] justify-center items-center h-[50px]">
-        <p className="text-xl md:text-3xl ">Just</p>
-        <div className="  text-xl md:text-3xl font-bold text-mainColor">
+        <p className="text-2xl md:text-3xl ">Just</p>
+        <div className="  text-2xl md:text-3xl font-bold text-mainColor">
           {timeLeft ? (
             timeLeft
           ) : (
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
           )}
         </div>
-        <p className="text-xl md:text-3xl ">Left.</p>
+        <p className="text-2xl md:text-3xl ">Left.</p>
       </div>
 
       {/* Location Button (direct link to Google Maps) */}
