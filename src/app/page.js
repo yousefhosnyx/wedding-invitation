@@ -29,7 +29,7 @@ export default function Home() {
     "https://www.google.com/maps?q=12+Nile+Corniche,+Maadi,+Cairo+Governorate,+Egypt";
 
   return (
-    <div className="animate-fadeIn bg-gray-900 flex flex-col items-center justify-center text-center py-12 px-4">
+    <div className="animate-fadeIn min-h-screen bg-gray-900 flex flex-col items-center justify-center text-center py-12 px-4">
       {/* Welcome Message */}
       <p className="text-xl md:text-3xl text-yellow-400 font-medium">
         WELCOME TO WEDDING
