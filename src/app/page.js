@@ -75,7 +75,7 @@ export default function Home() {
       </div> */}
       <h1 className="text-gray-300 font-bold text-lg">
         The countdown is{" "}
-        <spam className="text-red-700 font-bold text-lg">over.</spam>
+        <span className="text-red-700 font-bold text-lg">over.</span>
       </h1>
     </div>
   );
