@@ -40,19 +40,12 @@ export default function Home() {
 
   return (
     <div className="animate-fadeIn min-h-screen bg-background flex flex-col items-center justify-center text-center py-12 px-4">
-      {/* Countdown Timer */}
-      <div className="flex gap-[4px] md:gap-[5px] justify-center items-center h-[50px]">
+      {/* <div className="flex gap-[4px] md:gap-[5px] justify-center items-center h-[50px]">
         <p className="text-2xl md:text-3xl">Just</p>
         <div className="text-2xl md:text-3xl font-bold text-mainColor">
           {timeLeft ? (
             timeLeft
           ) : (
-            // <InfinitySpin
-            //   visible={true}
-            //   width="200"
-            //   color="#10C48A"
-            //   ariaLabel="infinity-spin-loading"
-            // />
             <div className="w-[190.8px] md:w-[238.5px] flex justify-center ">
               {" "}
               <ClockLoader size={30} color="#10c48a" />{" "}
@@ -62,7 +55,6 @@ export default function Home() {
         <p className="text-2xl md:text-3xl ">Left.</p>
       </div>
 
-      {/* Location Button (direct link to Google Maps) */}
       <div className="flex gap-3">
         {" "}
         <a
@@ -80,7 +72,8 @@ export default function Home() {
         >
           Invitiation
         </a>
-      </div>
+      </div> */}
+      <h1 className="text-gray-300 font-bold">The countdown is over.</h1>
     </div>
   );
 }
