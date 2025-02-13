@@ -73,7 +73,10 @@ export default function Home() {
           Invitiation
         </a>
       </div> */}
-      <h1 className="text-gray-300 font-bold">The countdown is over.</h1>
+      <h1 className="text-gray-300 font-bold text-lg">
+        The countdown is{" "}
+        <spam className="text-red-700 font-bold text-lg">over.</spam>
+      </h1>
     </div>
   );
 }
