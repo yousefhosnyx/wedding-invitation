@@ -40,7 +40,7 @@ export default function Home() {
 
   return (
     <div className="animate-fadeIn min-h-screen bg-background flex flex-col items-center justify-center text-center py-12 px-4">
-      {/* <div className="flex gap-[4px] md:gap-[5px] justify-center items-center h-[50px]">
+      <div className="flex gap-[4px] md:gap-[5px] justify-center items-center h-[50px]">
         <p className="text-2xl md:text-3xl">Just</p>
         <div className="text-2xl md:text-3xl font-bold text-mainColor">
           {timeLeft ? (
@@ -72,11 +72,11 @@ export default function Home() {
         >
           Invitiation
         </a>
-      </div> */}
-      <h1 className="text-gray-300 font-bold text-lg">
+      </div>
+      {/* <h1 className="text-gray-300 font-bold text-lg">
         The countdown is{" "}
         <span className="text-red-700 font-bold text-lg">over.</span>
-      </h1>
+      </h1> */}
     </div>
   );
 }
