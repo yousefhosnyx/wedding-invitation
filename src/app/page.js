@@ -6,7 +6,7 @@ export default function Home() {
   const [timeLeft, setTimeLeft] = useState("");
 
   useEffect(() => {
-    const targetDate = new Date("2025-04-04T19:00:00"); // Replace with your wedding date
+    const targetDate = new Date("2025-04-04T20:00:00"); // Replace with your wedding date
     const interval = setInterval(() => {
       const now = new Date();
       const difference = targetDate - now;
